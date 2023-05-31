@@ -6,6 +6,25 @@ settings:
 
 importers:
 
+  '->/action-three':
+    dependencies:
+      '@actions/core':
+        specifier: ^1.10.0
+        version: 1.10.0
+      '@vercel/ncc':
+        specifier: ^0.36.1
+        version: 0.36.1
+      shared:
+        specifier: workspace:^
+        version: link:../../shared
+    devDependencies:
+      '@tsconfig/node18':
+        specifier: ^2.0.1
+        version: 2.0.1
+      typescript:
+        specifier: ^5.0.4
+        version: 5.0.4
+
   .:
     devDependencies:
       '@tsconfig/node18':
