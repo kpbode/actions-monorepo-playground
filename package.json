@@ -1,0 +1,21 @@
+{
+  "name": "actions-monorepo-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test in parent specified\""
+  },
+  "engines": {
+    "node": ">= 18",
+    "pnpm": ">= 8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.1",
+    "ts-node": "^10.9.1"
+  }
+}

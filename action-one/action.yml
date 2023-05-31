@@ -1,0 +1,10 @@
+name: Action One
+description: Just a sample action
+author: 'Developer Experience Squad - OneFootball GmbH'
+inputs:
+  test_parameter_1:
+    required: true
+    description: 'test'
+runs:
+  using: node16
+  main: 'dist/main.js'

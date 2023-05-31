@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/node18",
+  "compilerOptions": {
+    "lib": ["es2023","dom"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
