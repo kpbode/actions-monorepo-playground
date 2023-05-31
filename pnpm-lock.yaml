@@ -20,6 +20,12 @@ importers:
       '@actions/core':
         specifier: ^1.10.0
         version: 1.10.0
+      '@vercel/ncc':
+        specifier: ^0.36.1
+        version: 0.36.1
+      action-two:
+        specifier: workspace:^
+        version: link:../action-two
       shared:
         specifier: workspace:^
         version: link:../shared
@@ -36,6 +42,9 @@ importers:
       '@actions/core':
         specifier: ^1.10.0
         version: 1.10.0
+      '@vercel/ncc':
+        specifier: ^0.36.1
+        version: 0.36.1
       shared:
         specifier: workspace:^
         version: link:../shared
@@ -121,6 +130,11 @@ packages:
   /@types/node@20.2.5:
     resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
     dev: true
+
+  /@vercel/ncc@0.36.1:
+    resolution: {integrity: sha512-S4cL7Taa9yb5qbv+6wLgiKVZ03Qfkc4jGRuiUQMQ8HGBD5pcNRnHeYM33zBvJE4/zJGjJJ8GScB+WmTsn9mORw==}
+    hasBin: true
+    dev: false
 
   /acorn-walk@8.2.0:
     resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==}
